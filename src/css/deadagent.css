@@ -1,0 +1,31 @@
+@import url("../vendor/normalize.css");
+
+@font-face {
+  font-family: "PetMe1282Y";
+  src: url("../vendor/fonts/petme/PetMe1282Y.ttf") format("truetype");
+}
+
+
+body {
+  font-family: PetMe1282Y, "Pet Me 128 2Y", Helvetica, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5em;
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+:any-link {
+  color: black;
+}
+
+.grid {
+  display: flex;
+  overflow: visible;
+  flex-direction: column;
+  height: 80vh;
+}
+.grid-block {
+  flex: 1;
+}
+.grid-block2 {
+  flex: 1;
+}
