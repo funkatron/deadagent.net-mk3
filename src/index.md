@@ -1,3 +1,8 @@
+---
+title: "DEAD AGENT"
+lang: en-US
+...
+
 # DEAD AGENT
 
 ## NOTABLE
