@@ -31,20 +31,20 @@
   /* This C64 Palette from this image  https://www.c64-wiki.com/images/2/2c/c64_16farben.png */
   --color-black: #000000;
   --color-white: #FFFFFF;
-  --color-red: #880000;
-  --color-cyan: #AAFFEE;
-  --color-violet: #CC44CC;
-  --color-green: #00CC55;
-  --color-blue: #0000AA;
-  --color-yellow: #EEEE77;
-  --color-orange: #DD8855;
-  --color-brown: #664400;
-  --color-lightred: #FF7777;
-  --color-darkgrey: #333333;
-  --color-grey: #777777;
-  --color-lightgreen: #AAFF66;
-  --color-lightblue: #0088FF;
-  --color-lightgrey: #BBBBBB;
+  --color-red: #86413A;
+  --color-cyan: #7BBDC4;
+  --color-violet: #854EA9;
+  --color-green: #6BA54B;
+  --color-blue: #3C3A9B;
+  --color-yellow: #D1D77A;
+  --color-orange: #8E5D2F;
+  --color-brown: #5C4713;
+  --color-lightred: #B8766F;
+  --color-darkgrey: #555555;
+  --color-grey: #7F7F7F;
+  --color-lightgreen: #AEE68D;
+  --color-lightblue: #7874D4;
+  --color-lightgrey: #AAAAAA;
 
   --bgcolor1: var(--color-white);
   --bgcolor2: var(--color-lightgrey);
@@ -116,12 +116,10 @@ pre, code {
 }
 
 pre {
-/*   margin: 0.25em; */
   padding: 0.5em;
   border-color: var(--color-green);
   border-top-style: solid;
   border-bottom-style: solid;
-/*   font-size: small */
 }
 
 /* index page promo grid - EF 2022-05-30 */
@@ -130,15 +128,21 @@ pre {
   overflow: visible;
   flex-direction: column;
   height: 80vh;
-  margin: 0 -2em;
+  margin: 0;
   border-color: var(--fgcolor3);
   border-style: solid;
+  border-width:0;
   border-top-width: 0.5em;
   border-bottom-width: 0.5em;
 }
 .grid-block {
-/*   border-width: 0.5em; */
   border-color: var(--fgcolor3);
   border-style: solid;
   flex: 1;
+}
+.grid-block + .grid-block {
+  border-color: var(--fgcolor3);
+  border-style: solid;
+  border-width:0;
+  border-top-width: 0.5em;
 }
