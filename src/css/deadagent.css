@@ -4,28 +4,141 @@
   font-family: "PetMe1282Y";
   src: url("../vendor/fonts/petme/PetMe1282Y.ttf") format("truetype");
 }
+@font-face {
+  font-family: "PetMe128";
+  src: url("../vendor/fonts/petme/PetMe128.ttf") format("truetype");
+}
 
+:root {
+  /* This C64 Palette from https://www.c64-wiki.com/wiki/Color  */
+/*   --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-red: #880000;
+  --color-cyan: #AAFFEE;
+  --color-violet: #CC44CC;
+  --color-green: #00CC55;
+  --color-blue: #0000AA;
+  --color-yellow: #EEEE77;
+  --color-orange: #DD8855;
+  --color-brown: #664400;
+  --color-lightred: #FF7777;
+  --color-darkgrey: #333333;
+  --color-grey: #777777;
+  --color-lightgreen: #AAFF66;
+  --color-lightblue: #0088FF;
+  --color-lightgrey: #BBBBBB; */
+
+  /* This C64 Palette from this image  https://www.c64-wiki.com/images/2/2c/c64_16farben.png */
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-red: #880000;
+  --color-cyan: #AAFFEE;
+  --color-violet: #CC44CC;
+  --color-green: #00CC55;
+  --color-blue: #0000AA;
+  --color-yellow: #EEEE77;
+  --color-orange: #DD8855;
+  --color-brown: #664400;
+  --color-lightred: #FF7777;
+  --color-darkgrey: #333333;
+  --color-grey: #777777;
+  --color-lightgreen: #AAFF66;
+  --color-lightblue: #0088FF;
+  --color-lightgrey: #BBBBBB;
+
+  --bgcolor1: var(--color-white);
+  --bgcolor2: var(--color-lightgrey);
+  --bgcolor3: var(--color-blue);
+  --fgcolor1: var(--color-black);
+  --fgcolor2: var(--color-darkgrey);
+  --fgcolor3: var(--color-lightblue);
+
+  --link-color: var(--color-cyan);
+}
 
 body {
   font-family: PetMe1282Y, "Pet Me 128 2Y", Helvetica, "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5em;
-  font-size: 1.5em;
-  padding: 1em;
+  font-size: medium;
+  padding: 0 1em 0;
+
+  background-color: var(--bgcolor3);
+  color: var(--fgcolor3);
+
+  border-width: 0.5em 0;
+  border-color: var(--fgcolor3);
+  border-style: solid;
 }
+
+body > h1 {
+/*   margin: 0; */
+  color: var(--bgcolor3);
+  background-color: var(--fgcolor3);
+  line-height: 1.5em;
+/*   font-size: 3em; */
+/*   border-width: 0.2em; */
+  border-color: var(--bgcolor3);
+  border-bottom-style: solid;
+  padding: 0 .5em;
+  letter-spacing: 0.3em;
+}
+
 
 :any-link {
-  color: black;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--link-color);
+  border-bottom-width: 0.3em;
+  border-bottom-color: var(--link-color);
+  border-bottom-style: solid;
+  padding: 0.25em 0 0.25em 0;
 }
 
+h2 {
+  color: var(--color-lightgrey);
+}
+
+ol, ul {
+
+}
+ol li, ul li {
+  margin-top: 1em;
+}
+
+ol li+li, ul li+li {
+  margin-top: 1em;
+}
+
+pre, code {
+  font-family: PetMe1282Y;
+  color: var(--color-green);
+  background-color: var(--color-black);
+}
+
+pre {
+/*   margin: 0.25em; */
+  padding: 0.5em;
+  border-color: var(--color-green);
+  border-top-style: solid;
+  border-bottom-style: solid;
+/*   font-size: small */
+}
+
+/* index page promo grid - EF 2022-05-30 */
 .grid {
   display: flex;
   overflow: visible;
   flex-direction: column;
   height: 80vh;
+  margin: 0 -2em;
+  border-color: var(--fgcolor3);
+  border-style: solid;
+  border-top-width: 0.5em;
+  border-bottom-width: 0.5em;
 }
 .grid-block {
-  flex: 1;
-}
-.grid-block2 {
+/*   border-width: 0.5em; */
+  border-color: var(--fgcolor3);
+  border-style: solid;
   flex: 1;
 }
