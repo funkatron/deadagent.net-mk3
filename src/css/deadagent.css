@@ -139,7 +139,7 @@ pre {
   display: flex;
   pointer-events: none;
   flex-direction: column;
-  animation:  flicker 0.15s infinite;;
+  animation:  flicker 2s infinite;
 }
 
 /* #keyframes */
@@ -148,8 +148,8 @@ pre {
       transform: scale(0.5) rotate3d(0);
   }
 
-  95% {
-      transform: scale(5) rotate3d(0,0,1,359);
+  100% {
+      transform: scale(5) rotate3d(0,0,1,360deg);
   }
 }
 
