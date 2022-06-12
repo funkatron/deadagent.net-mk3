@@ -3,21 +3,60 @@ title: "DEAD AGENT: Chapters December 1994: How Arnie Katz Changed My Life"
 lang: en-US
 ...
 
-# Chapters: Dec 1994 - How Arnie Katz Changed My Life
-
-@TODO
-- [ ] get images from phone to computer
-- [ ] use Affinity Photo to batch resize to something reasonable for GRID THUMBNAILS (max 2048)
-- [ ] run ImageOptim on A COPY of the originals
-- [ ] write HTML to show thumbnail and link to original
-    - `<a href="{IMG_URL}"><img src="{IMG_THUMB_SRC}"></a>`
+## @TODO
 - [ ] write CSS flex or grid code (do THE EASIEST SIMPLE WAY)
 - [ ] preview and adjust
 - [ ] publish to server
 
+
+# Chapters: Dec 1994 - How Arnie Katz Changed My Life
+
+
 <div class="image-grid">
     <div class=image-grid-item>
-        <a href="{IMG_URL}"><img src="{IMG_THUMB_SRC}"></a>
+        <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5251.jpg">
+            <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5251.jpg">
+        </a>
+    </div>
+    <div class=image-grid-item>
+        <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5252.jpg">
+            <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5252.jpg">
+        </a>
+    </div>
+    <div class=image-grid-item>
+        <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5253.jpg">
+            <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5253.jpg">
+        </a>
+    </div>
+    <div class=image-grid-item>
+        <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5254.jpg">
+            <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5254.jpg">
+        </a>
+    </div>
+    <div class=image-grid-item>
+        <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5255.jpg">
+            <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5255.jpg">
+        </a>
+    </div>
+    <div class=image-grid-item>
+        <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5256.jpg">
+            <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5256.jpg">
+        </a>
+    </div>
+    <div class=image-grid-item>
+        <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5257.jpg">
+            <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5257.jpg">
+        </a>
+    </div>
+    <div class=image-grid-item>
+        <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5258.jpg">
+            <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5258.jpg">
+        </a>
+    </div>
+    <div class=image-grid-item>
+        <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5259.jpg">
+            <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5259.jpg">
+        </a>
     </div>
 </div>
 

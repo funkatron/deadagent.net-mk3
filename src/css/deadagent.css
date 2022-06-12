@@ -1,4 +1,5 @@
 @import url("../vendor/normalize.css");
+@import url("./crt.css");
 
 @font-face {
   font-family: "PetMe1282Y";
@@ -8,6 +9,8 @@
   font-family: "PetMe128";
   src: url("../vendor/fonts/petme/PetMe128.ttf") format("truetype");
 }
+
+
 
 :root {
   /* This C64 Palette from https://www.c64-wiki.com/wiki/Color  */
@@ -56,10 +59,14 @@
   --link-color: var(--color-cyan);
 }
 
+
+
+/* change */
+
 body {
   font-family: PetMe1282Y, "Pet Me 128 2Y", Helvetica, "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5em;
-  font-size: medium;
+  font-size: larger;
   padding: 0 1em 0;
 
   background-color: var(--bgcolor3);
@@ -120,6 +127,38 @@ pre {
   border-color: var(--color-green);
   border-top-style: solid;
   border-bottom-style: solid;
+}
+
+#bg-grid {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: auto;
+  display: flex;
+  pointer-events: none;
+  flex-direction: column;
+  animation:  flicker 0.15s infinite;;
+}
+
+/* #keyframes */
+@keyframes bgGridMovement {
+  0% {
+      transform: scale(0.5) rotate3d(0);
+  }
+
+  95% {
+      transform: scale(5) rotate3d(0,0,1,359);
+  }
+}
+
+#bg-grid img {
+  min-width: 100%;
+  min-height: 100%;
+  flex: 1;
+  animation: bgGridMovement 60s infinite;
+  opacity: 0.2;
 }
 
 /* index page promo grid - EF 2022-05-30 */
