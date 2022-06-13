@@ -139,17 +139,21 @@ pre {
   display: flex;
   pointer-events: none;
   flex-direction: column;
-  animation:  flicker 2s infinite;
+  animation:  flicker 2s alternate-reverse;
 }
 
 /* #keyframes */
 @keyframes bgGridMovement {
   0% {
-      transform: scale(0.5) rotate3d(0);
+      transform: scale(1.5) rotate3d(0,0,0,0deg);
+  }
+
+  50% {
+      transform: scale(5) rotate3d(0,0.2,1,360deg);
   }
 
   100% {
-      transform: scale(5) rotate3d(0,0,1,360deg);
+      transform: scale(1.5) rotate3d(0,0,0,0deg);
   }
 }
 
@@ -157,8 +161,12 @@ pre {
   min-width: 100%;
   min-height: 100%;
   flex: 1;
-  animation: bgGridMovement 60s infinite;
-  opacity: 0.2;
+  animation-name: bgGridMovement;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  opacity: 0.3;
 }
 
 /* index page promo grid - EF 2022-05-30 */
