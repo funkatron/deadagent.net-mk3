@@ -14,8 +14,12 @@ $if(keywords)$
 $endif$
 $if(description-meta)$
   <meta name="description" content="$description-meta$" />
+  <meta property="og:description" content="$description-meta$" />
 $endif$
   <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+  <meta property="og:title" content="$pagetitle$" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="$pageImgUrl$" />
   <style>
     $styles.html()$
   </style>
@@ -28,9 +32,6 @@ $endfor$
 $if(math)$
   $math$
 $endif$
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body class="crt">
 <div id="bg-grid">

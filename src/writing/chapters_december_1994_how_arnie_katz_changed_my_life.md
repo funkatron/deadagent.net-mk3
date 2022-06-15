@@ -1,13 +1,8 @@
 ---
 title: "DEAD AGENT: Chapters December 1994: How Arnie Katz Changed My Life"
 lang: en-US
+pageImgUrl: https://deadagent.net/img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5251.jpg
 ...
-
-## @TODO
-- [ ] write CSS flex or grid code (do THE EASIEST SIMPLE WAY)
-- [ ] preview and adjust
-- [ ] publish to server
-
 
 # Chapters: Dec 1994 - How Arnie Katz Changed My Life
 
