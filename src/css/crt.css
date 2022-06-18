@@ -1,4 +1,10 @@
-/* The CRT effect was borrowed from http://aleclownes.com/2017/02/01/crt-display.html */
+/**
+  This is borrowed and modified slightly from https://psychoslinux.gitlab.io/DOS/INDEX.HTM.
+  From the previous author: "The CRT effect was borrowed from http://aleclownes.com/2017/02/01/crt-display.html"
+  See also https://codepen.io/lbebber/pen/XJRdrV/
+  - EF 2022-06-15
+*/
+
 @keyframes flicker {
     0% {
         background-position-x: 0%;
@@ -189,6 +195,7 @@
     animation: flicker 0.15s infinite;
 }
 
+/* this is the overlay of "scan lines" */
 .crt::before {
     content: " ";
     display: block;
@@ -203,6 +210,7 @@
     pointer-events: none;
 }
 
+/* chroma flickering effect */
 .crt {
     animation: textShadow 1.6s infinite;
 }

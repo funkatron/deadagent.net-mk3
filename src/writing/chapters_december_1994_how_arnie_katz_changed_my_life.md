@@ -1,7 +1,9 @@
 ---
 title: "DEAD AGENT: Chapters December 1994: How Arnie Katz Changed My Life"
 lang: en-US
-pageImgUrl: https://deadagent.net/img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5251.jpg
+date: '2022-06-14T22:57:09-04:00'
+ogType: article
+ogImgUrl: https://deadagent.net/img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5251.jpg
 ...
 
 # Chapters: Dec 1994 - How Arnie Katz Changed My Life
@@ -80,3 +82,5 @@ It really all started with that column in Video Games and Computer Entertainment
 I had that need to create and connect in me all the time. Arnie gave me the opportunity, and mentored and encouraged me. Imagine a 50 something dude talking to a 14 year old on the phone for an hour  while he peppers you with questions about the video game biz. But he tolerated it all, and kept encouraging me and supporting me.
 
 Anyway, thank you Arnie. You are a true Mensch.
+
+[Return](./)

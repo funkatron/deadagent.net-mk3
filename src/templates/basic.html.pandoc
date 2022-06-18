@@ -3,11 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="robots" content="index, follow">
 $for(author-meta)$
   <meta name="author" content="$author-meta$" />
 $endfor$
-$if(date-meta)$
-  <meta name="dcterms.date" content="$date-meta$" />
+$if(date)$
+  <meta name="dcterms.date" content="$date$" />
+  <meta property="article:published_time" content="$date$">
 $endif$
 $if(keywords)$
   <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
@@ -18,8 +20,9 @@ $if(description-meta)$
 $endif$
   <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
   <meta property="og:title" content="$pagetitle$" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="$pageImgUrl$" />
+  <meta property="og:type" content="$ogType$" />
+  <meta property="og:image" content="$ogImgUrl$" />
+  <meta property="og:sitename" content="Dead Agent" />
   <style>
     $styles.html()$
   </style>
@@ -52,5 +55,10 @@ $body$
 $for(include-after)$
 $include-after$
 $endfor$
+<footer>
+$if(date)$
+<small><em>Published: $date$</em></small>
+$endif$
+</footer>
 </body>
 </html>

@@ -139,7 +139,6 @@ pre {
   display: flex;
   pointer-events: none;
   flex-direction: column;
-  animation:  flicker 2s alternate-reverse;
 }
 
 /* #keyframes */
@@ -149,7 +148,7 @@ pre {
   }
 
   50% {
-      transform: scale(5) rotate3d(0,0.2,1,360deg);
+      transform: scale(5) rotate3d(0,0.5,1,360deg);
   }
 
   100% {
@@ -162,11 +161,11 @@ pre {
   min-height: 100%;
   flex: 1;
   animation-name: bgGridMovement;
-  animation-duration: 60s;
+  animation-duration: 240s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 /* index page promo grid - EF 2022-05-30 */

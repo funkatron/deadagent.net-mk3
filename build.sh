@@ -20,7 +20,7 @@ find ${BUILD_DIR} \
     -iname "*.md" \
     -type f \
     -print \
-    -exec sh -c 'pandoc  -f gfm-autolink_bare_uris -t html "${0}" -s --template '${BUILD_DIR}'/templates/basic.html.pandoc -c "/css/deadagent.css" -o "${0%.md}.html"' {} \;
+    -exec sh -c 'pandoc -d '${SCRIPT_DIR}'/pandoc.yml -f gfm-autolink_bare_uris -t html "${0}" -s --template '${BUILD_DIR}'/templates/basic.html.pandoc -c "/css/deadagent.css" -o "${0%.md}.html"' {} \;
 
 # copy from tmp to dist
 echo "Making dist..."
