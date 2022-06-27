@@ -1,6 +1,5 @@
 ---
-title: "DEAD AGENT: Chapters December 1994: How Arnie Katz Changed My Life"
-lang: en-US
+title: "Chapters: December 1994: How Arnie Katz Changed My Life"
 date: '2022-06-14T22:57:09-04:00'
 ogType: article
 ogImgUrl: https://deadagent.net/img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5251.jpg
@@ -10,47 +9,47 @@ ogImgUrl: https://deadagent.net/img/electronic-gaming-december-1994-music-of-the
 
 
 <div class="image-grid">
-    <div class=image-grid-item>
+    <div class="image-grid-item">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5251.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5251.jpg">
         </a>
     </div>
-    <div class=image-grid-item>
+    <div class="image-grid-item">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5252.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5252.jpg">
         </a>
     </div>
-    <div class=image-grid-item>
+    <div class="image-grid-item">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5253.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5253.jpg">
         </a>
     </div>
-    <div class=image-grid-item>
+    <div class="image-grid-item">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5254.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5254.jpg">
         </a>
     </div>
-    <div class=image-grid-item>
+    <div class="image-grid-item">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5255.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5255.jpg">
         </a>
     </div>
-    <div class=image-grid-item>
+    <div class="image-grid-item">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5256.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5256.jpg">
         </a>
     </div>
-    <div class=image-grid-item>
+    <div class="image-grid-item">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5257.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5257.jpg">
         </a>
     </div>
-    <div class=image-grid-item>
+    <div class="image-grid-item">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5258.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5258.jpg">
         </a>
     </div>
-    <div class=image-grid-item>
+    <div class="image-grid-item">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5259.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5259.jpg">
         </a>
@@ -82,5 +81,3 @@ It really all started with that column in Video Games and Computer Entertainment
 I had that need to create and connect in me all the time. Arnie gave me the opportunity, and mentored and encouraged me. Imagine a 50 something dude talking to a 14 year old on the phone for an hour  while he peppers you with questions about the video game biz. But he tolerated it all, and kept encouraging me and supporting me.
 
 Anyway, thank you Arnie. You are a true Mensch.
-
-[Return](./)

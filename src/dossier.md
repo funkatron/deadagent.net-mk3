@@ -1,6 +1,5 @@
 ---
-title: "DEAD AGENT: Dossier"
-lang: en-US
+title: "Dossier"
 ...
 
 # DOSSIER
@@ -18,5 +17,3 @@ sum_of_first_n = sum(firstn(1000000))
 ```
 
 Technology multiplies force.
-
-[Return](./)

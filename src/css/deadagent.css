@@ -14,7 +14,7 @@
 
 :root {
   /* This C64 Palette from https://www.c64-wiki.com/wiki/Color  */
-/*   --color-black: #000000;
+   --color-black: #000000;
   --color-white: #FFFFFF;
   --color-red: #880000;
   --color-cyan: #AAFFEE;
@@ -29,10 +29,10 @@
   --color-grey: #777777;
   --color-lightgreen: #AAFF66;
   --color-lightblue: #0088FF;
-  --color-lightgrey: #BBBBBB; */
+  --color-lightgrey: #BBBBBB;
 
   /* This C64 Palette from this image  https://www.c64-wiki.com/images/2/2c/c64_16farben.png */
-  --color-black: #000000;
+/*  --color-black: #000000;
   --color-white: #FFFFFF;
   --color-red: #86413A;
   --color-cyan: #7BBDC4;
@@ -47,7 +47,7 @@
   --color-grey: #7F7F7F;
   --color-lightgreen: #AEE68D;
   --color-lightblue: #7874D4;
-  --color-lightgrey: #AAAAAA;
+  --color-lightgrey: #AAAAAA; */
 
   --bgcolor1: var(--color-white);
   --bgcolor2: var(--color-lightgrey);
@@ -67,7 +67,7 @@ body {
   font-family: PetMe1282Y, "Pet Me 128 2Y", Helvetica, "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5em;
   font-size: larger;
-  padding: 0 1em 0;
+  padding: 1em 1em 0 1em;
 
   background-color: var(--bgcolor3);
   color: var(--fgcolor3);
@@ -127,6 +127,52 @@ pre {
   border-color: var(--color-green);
   border-top-style: solid;
   border-bottom-style: solid;
+}
+
+header.category-index {
+  max-width: 100%;
+  max-height: 80vh;
+  overflow: hidden;
+}
+img.category-index {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+header.category-index+h1 {
+  margin: 0;
+  padding-top: .2em;
+}
+
+footer {
+  color: var(--fgcolor3);
+  background-color: var(--bgcolor);
+}
+footer ul, footer ol {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  /* color: var(--fgcolor1); */
+  display: inline-block;
+}
+footer li:last-of-type {
+  float: right;
+}
+footer li a:any-link {
+  background-color: var(--fgcolor3);
+  border: 8px solid var(--bgcolor3);
+  padding: 1em;
+  margin-right: 1em;
+  border-bottom-width: 0;
+  text-decoration: none;
+  display: block;
+}
+footer li a:any-link::before {
+  content: "→";
+  margin-right:0.5em;
+  font-size: larger;
 }
 
 #bg-grid {

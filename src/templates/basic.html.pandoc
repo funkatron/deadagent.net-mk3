@@ -18,11 +18,11 @@ $if(description-meta)$
   <meta name="description" content="$description-meta$" />
   <meta property="og:description" content="$description-meta$" />
 $endif$
-  <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+  <title>$if(title-prefix)$$title-prefix$$endif$$pagetitle$</title>
   <meta property="og:title" content="$pagetitle$" />
   <meta property="og:type" content="$ogType$" />
   <meta property="og:image" content="$ogImgUrl$" />
-  <meta property="og:sitename" content="Dead Agent" />
+  <meta property="og:sitename" content="$ogSitename$" />
   <style>
     $styles.html()$
   </style>
@@ -56,9 +56,17 @@ $for(include-after)$
 $include-after$
 $endfor$
 <footer>
-$if(date)$
-<small><em>Published: $date$</em></small>
-$endif$
+  <nav>
+    <ul>
+      <li><a href="/">:home</a></li>
+      <li>
+        <address>
+          <a href="mailto:info@deadagent.net">info@deadagent.net</a>
+        </address>
+      </li>
+      <li><a href="https://github.com/funkatron/deadagent.net-mk3">:src</a></li>
+    </ul>
+  </nav>
 </footer>
 </body>
 </html>
