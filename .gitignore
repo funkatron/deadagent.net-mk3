@@ -1,3 +1,4 @@
 venv/
 dist/
-deploy.sh
+.env
+.DS_Store

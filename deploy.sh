@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 SSH_KEY_PATH="~/.ssh/LightsailDefaultPrivateKey.pem"
-SSH_SERVER_USERNAME="root"
+SSH_SERVER_USERNAME="ubuntu"
 SSH_SERVER_HOSTNAME="deadagent.net"
 SSH_SERVER_SITEROOT_PATH="/var/www/deadagent.net/public"
 DEPLOY_URL='https://deadagent.net'
