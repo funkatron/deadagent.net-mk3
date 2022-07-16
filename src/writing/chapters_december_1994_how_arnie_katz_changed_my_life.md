@@ -3,53 +3,53 @@ title: "Chapters: December 1994: How Arnie Katz Changed My Life"
 date: '2022-06-14T22:57:09-04:00'
 ogType: article
 ogImgUrl: https://deadagent.net/img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5251.jpg
-...
+---
 
 # Chapters: Dec 1994 - How Arnie Katz Changed My Life
 
 
 <div class="image-grid">
-    <div class="image-grid-item">
+    <div class="image-grid-item max-width-33">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5251.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5251.jpg">
         </a>
     </div>
-    <div class="image-grid-item">
+    <div class="image-grid-item max-width-33">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5252.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5252.jpg">
         </a>
     </div>
-    <div class="image-grid-item">
+    <div class="image-grid-item max-width-33">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5253.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5253.jpg">
         </a>
     </div>
-    <div class="image-grid-item">
+    <div class="image-grid-item max-width-33">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5254.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5254.jpg">
         </a>
     </div>
-    <div class="image-grid-item">
+    <div class="image-grid-item max-width-33">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5255.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5255.jpg">
         </a>
     </div>
-    <div class="image-grid-item">
+    <div class="image-grid-item max-width-33">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5256.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5256.jpg">
         </a>
     </div>
-    <div class="image-grid-item">
+    <div class="image-grid-item max-width-33">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5257.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5257.jpg">
         </a>
     </div>
-    <div class="image-grid-item">
+    <div class="image-grid-item max-width-33">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5258.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5258.jpg">
         </a>
     </div>
-    <div class="image-grid-item">
+    <div class="image-grid-item max-width-33">
         <a href="../img/electronic-gaming-december-1994-music-of-the-spheres-article/orig/IMG_5259.jpg">
             <img src="../img/electronic-gaming-december-1994-music-of-the-spheres-article/thumb/IMG_5259.jpg">
         </a>

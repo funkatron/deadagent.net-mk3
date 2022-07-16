@@ -1,7 +1,7 @@
 ---
 title: "Home Node"
 ogImgUrl: https://deadagent.net/img/siteOgImg.jpg
-...
+---
 
 # DEAD AGENT
 

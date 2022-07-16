@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+
+# some of the older files from funkatron.com have a .html extension, but contain
+# YAML front matter and the HTML content fragment. Therefore we need to grab
+# both *.md and *.html
+# MARKDOWN_FILE_EXTENTIONS='*.md *.html'
+
 SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]:-$0}"; )" &> /dev/null && pwd 2> /dev/null; )";
 
 TEMP_DIR='/tmp'
@@ -14,13 +20,21 @@ mkdir -p ${BUILD_DIR} && \
     rm -rf ${BUILD_DIR}/* && \
     cp -r ${SRC_DIR}/* ${BUILD_DIR};
 
-# convert md to html files
-echo "Converting files using pandoc..."
+# rename all *.html files to *.md on MacOS
+
+
+# echo "Renaming *.html files to *.md..."
+# find ${BUILD_DIR} -name '*.html' -exec rename 's/\.html/.md/' {} \;
+
+# convert YAML front matter + markdown -> HTML
+CONVERT_CMD_MD='pandoc -d '${SCRIPT_DIR}'/pandoc.yml -f gfm-autolink_bare_uris -t html "${0}" -s --template '${BUILD_DIR}'/templates/basic.html.pandoc -c "/css/deadagent.css" -o "${0%.md}.html"'
+
+echo "Converting files using pandoc command: ${CONVERT_CMD_MD}"
 find ${BUILD_DIR} \
-    -iname "*.md" \
     -type f \
+    -iname "*.md" \
     -print \
-    -exec sh -c 'pandoc -d '${SCRIPT_DIR}'/pandoc.yml -f gfm-autolink_bare_uris -t html "${0}" -s --template '${BUILD_DIR}'/templates/basic.html.pandoc -c "/css/deadagent.css" -o "${0%.md}.html"' {} \;
+    -exec sh -c "$CONVERT_CMD_MD" {} \;
 
 # copy from tmp to dist
 echo "Making dist..."
