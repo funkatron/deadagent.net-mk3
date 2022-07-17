@@ -36,7 +36,7 @@ $if(math)$
   $math$
 $endif$
 </head>
-<body class="crt">
+<body class="crt $if(bodyClass)$$bodyClass$$endif$">
 <div id="bg-grid">
   <img src="/img/grid.png">
 </div>

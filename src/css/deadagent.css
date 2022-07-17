@@ -1,6 +1,6 @@
 @import url("../vendor/normalize.css");
 @import url("./crt.css");
-@import url('c64-pallette.css');
+@import url('./c64-palette.css');
 
 @font-face {
   font-family: "PetMe1282Y";
@@ -14,17 +14,20 @@
 :root {
   --fgcolor1: var(--color-black);
   --bgcolor1: var(--color-white);
+  --link-color1: var(--color-cyan);
 
   --fgcolor2: var(--color-darkgrey);
   --bgcolor2: var(--color-lightgrey);
+  --link-color2: var(--color-yellow);
 
   --fgcolor3: var(--color-lightblue);
   --bgcolor3: var(--color-blue);
+  --link-color3: var(--color-green);
 
   --fgcolor4: var(--color-white);
   --bgcolor4: var(--color-black);
+  --link-color3: var(--color-lightred);
 
-  --link-color1: var(--color-cyan);
 }
 
 
@@ -33,31 +36,63 @@
 
 body {
   font-family: PetMe1282Y, "Pet Me 128 2Y", Helvetica, "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.5em;
-  font-size: x-large;
-  padding: 1em 1em 0 1em;
+  line-height: 1.75em;
+  font-size: large;
+  padding: 1em;
+/*   padding: 0; */
 
   background-color: var(--bgcolor3);
   color: var(--fgcolor3);
 
-  border-width: 0.5em 0;
+  border-width: 1em 0;
   border-color: var(--fgcolor3);
   border-style: solid;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: var(--bgcolor1);
+
+body.home {
+  font-family: PetMe1282Y, "Pet Me 128 2Y", Helvetica, "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5em;
-  border-width: 0.5em;
-  border-top-color: var(--fgcolor3);
+  font-size: large;
+  padding: 0;
+
+  background-color: var(--bgcolor3);
+  color: var(--fgcolor3);
+
+  border-width: 1em 0;
+  border-color: var(--fgcolor3);
+  border-style: solid;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: large;
+    max-width: 768px;
+    margin: auto;
+
+    background-color: var(--bgcolor3);
+    color: var(--fgcolor3);
+
+    border-width: 1em 0;
+    border-color: var(--fgcolor3);
+    border-style: solid;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--bgcolor3);
+  line-height: 1.5em;
+  border-width: 0.25em;
+  border-top-color: var(--bgcolor3);
   border-top-style: solid;
-  border-left-color: var(--fgcolor3);
+  border-left-color: var(--bgcolor3);
   border-left-style: dashed;
-  border-bottom-color: var(--fgcolor3);
+  border-bottom-color: var(--bgcolor3);
   border-bottom-style: solid;
+  background-color: var(--fgcolor3);
   padding: 0.5em;
   letter-spacing: 0.03em;
-  margin: 1.5em 0em;
+  margin: 1.5em 0em 0.5em;
 }
 
 
@@ -66,6 +101,7 @@ body > h1 {
   background-color: var(--fgcolor1);
   line-height: 1.5em;
   border-color: var(--bgcolor2);
+  margin-top: 0;
 /*   border-bottom-style: solid; */
 /*   padding: 0 .5em; */
 /*   letter-spacing: 0.3em; */
@@ -74,17 +110,16 @@ body > h1 {
 
 
 :any-link {
-  display: inline-block;
   text-decoration: none;
-  color: var(--link-color);
+  color: var(--link-color1);
   border-bottom-width: 0.3em;
-  border-bottom-color: var(--link-color);
+  border-bottom-color: var(--link-color1);
   border-bottom-style: solid;
   padding: 0.25em 0 0.25em 0;
 }
 
 h2 {
-  color: var(--color-lightgrey);
+/*   color: var(--color-lightgrey); */
 }
 
 hr {
@@ -95,16 +130,23 @@ hr {
   height: 1em;
 }
 
-ol, ul {
 
+ol, ul {
+  margin: 1em 0;
 }
+
+body.da-home ol, body.da-home ul {
+  margin-bottom: 2em;
+}
+
 ol li, ul li {
   margin-top: 1em;
 }
 
 ol li+li, ul li+li {
-  margin-top: 1em;
+  margin-top: 2em;
 }
+
 
 pre, code {
   font-family: PetMe1282Y;
@@ -135,34 +177,41 @@ header.category-index+h1 {
 }
 
 footer {
-  color: var(--fgcolor3);
-  background-color: var(--bgcolor);
+  color: var(--bgcolor3);
+  background-color: var(--bgcolor4);
+  border: .25em solid var(--fgcolor3);
+/*   margin: 1em; */
+/*   margin-top:1em; */
+  padding: 0.25em 1em;
 }
 footer ul, footer ol {
-  display: block;
-  margin: 0;
+  margin: 1em 0 !important;;
   padding: 0;
 }
 footer li {
-  /* color: var(--fgcolor1); */
+/*   color: var(--fgcolor1); */
   display: inline-block;
+  margin: 0 0 0 .5em;
+  padding: 0;
 }
-footer li:last-of-type {
-  float: right;
+footer li+li {
+  margin: 0 0 0 0.5em;
+  padding: 0;
 }
 footer li a:any-link {
-  background-color: var(--fgcolor3);
-  border: 8px solid var(--bgcolor3);
-  padding: 1em;
-  margin-right: 1em;
-  border-bottom-width: 0;
+/*   background-color: var(--fgcolor3); */
+/*   border: 8px solid var(--bgcolor3); */
+/*   padding: 1em; */
+/*   margin-right: 1em; */
+/*   border-bottom-width: 0; */
   text-decoration: none;
-  display: block;
+  display: inline-block;
+  border: none;
 }
 footer li a:any-link::before {
   content: "→";
-  margin-right:0.5em;
-  font-size: larger;
+/*   margin-right:0.25em; */
+/*   font-size: larger; */
 }
 
 #bg-grid {
@@ -232,15 +281,17 @@ footer li a:any-link::before {
 .image-grid {
   display: flex;
   flex-wrap: wrap;
-  height: 60vh;
+  max-height: 60vh;
+  min-height: 30vh;
   overflow: hidden;
-  border: 3em var(--fgcolor3) solid 
+  border: 1em var(--fgcolor3) solid;
+  margin-bottom: 1em;
 }
 
 .image-grid-item {
   flex-grow: 1;
-  object-fit: cover;
-  overflow: hidden;
+  object-fit: contain;
+/*   overflow: hidden; */
 }
 
 .max-width-33 {
@@ -248,17 +299,18 @@ footer li a:any-link::before {
   max-height: calc(100% / 3);
 }
 
-.image-grid-item img {
+.image-grid-item > a > img {
+  display:inline-block;
+/*   width: 100%; */
   max-height: 100%;
-  min-width: 100%;
+  width: 100%;
   object-fit: cover;
   vertical-align: bottom;
   align-self: center;
 }
 
-.image-grid-item a {
+.image-grid-item > a {
   border-bottom: 0;
-  display: inline;
 }
 
 
