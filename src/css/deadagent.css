@@ -1,5 +1,6 @@
 @import url("../vendor/normalize.css");
 @import url("./crt.css");
+@import url('c64-pallette.css');
 
 @font-face {
   font-family: "PetMe1282Y";
@@ -11,50 +12,19 @@
 }
 
 :root {
-  /* This C64 Palette from https://www.c64-wiki.com/wiki/Color  */
-   --color-black: #000000;
-  --color-white: #FFFFFF;
-  --color-red: #880000;
-  --color-cyan: #AAFFEE;
-  --color-violet: #CC44CC;
-  --color-green: #00CC55;
-  --color-blue: #0000AA;
-  --color-yellow: #EEEE77;
-  --color-orange: #DD8855;
-  --color-brown: #664400;
-  --color-lightred: #FF7777;
-  --color-darkgrey: #333333;
-  --color-grey: #777777;
-  --color-lightgreen: #AAFF66;
-  --color-lightblue: #0088FF;
-  --color-lightgrey: #BBBBBB;
-
-  /* This C64 Palette from this image  https://www.c64-wiki.com/images/2/2c/c64_16farben.png */
-/*  --color-black: #000000;
-  --color-white: #FFFFFF;
-  --color-red: #86413A;
-  --color-cyan: #7BBDC4;
-  --color-violet: #854EA9;
-  --color-green: #6BA54B;
-  --color-blue: #3C3A9B;
-  --color-yellow: #D1D77A;
-  --color-orange: #8E5D2F;
-  --color-brown: #5C4713;
-  --color-lightred: #B8766F;
-  --color-darkgrey: #555555;
-  --color-grey: #7F7F7F;
-  --color-lightgreen: #AEE68D;
-  --color-lightblue: #7874D4;
-  --color-lightgrey: #AAAAAA; */
-
-  --bgcolor1: var(--color-white);
-  --bgcolor2: var(--color-lightgrey);
-  --bgcolor3: var(--color-blue);
   --fgcolor1: var(--color-black);
-  --fgcolor2: var(--color-darkgrey);
-  --fgcolor3: var(--color-lightblue);
+  --bgcolor1: var(--color-white);
 
-  --link-color: var(--color-cyan);
+  --fgcolor2: var(--color-darkgrey);
+  --bgcolor2: var(--color-lightgrey);
+
+  --fgcolor3: var(--color-lightblue);
+  --bgcolor3: var(--color-blue);
+
+  --fgcolor4: var(--color-white);
+  --bgcolor4: var(--color-black);
+
+  --link-color1: var(--color-cyan);
 }
 
 
