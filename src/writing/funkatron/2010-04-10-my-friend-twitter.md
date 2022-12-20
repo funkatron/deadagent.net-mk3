@@ -12,6 +12,11 @@ date: 2010-04-10
 summary: 
 old_entry_id: 2463
 ---
+
+# My Friend Twitter
+
+_Originally published April 10th, 2010_
+
 <p><a href="http://www.flickr.com/photos/magisterludi/405224443/" title="Molly: A Dog With A Lot On Her Mind"><img src="https://farm1.static.flickr.com/160/405224443_0603b19d78.jpg" alt="Molly: A Dog With A Lot On Her Mind" /></a></p>
 
 <div class="photo-credit"><a href="http://www.flickr.com/photos/magisterludi/405224443/">Photo by Miscpix</a></div>
